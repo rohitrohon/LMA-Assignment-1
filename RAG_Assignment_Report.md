@@ -44,7 +44,7 @@ To evaluate retrieval precision, target chunks containing the authoritative rule
 ### Rank Shift Summary
 
 | Query Key | Query Category | Target Rule Chunk | Baseline Rank | Re-Ranked Rank | Rank Shift | Target in LLM Top-3? |
-|---|---|---|:---:|:---:|:---:|:---:|
+|:-------------------|:----------------------|:-------------------|:---:|:---:|:---:|:---:|
 | `trade_negation` | Negation / Constraint | Chunk 10 (p. 4) | #8 | #1 | **+7** | No &rarr; **Yes** |
 | `road_broken` | Exception / Corner Case | Chunk 33 (p. 9) | #5 | #2 | **+3** | No &rarr; **Yes** |
 | `bigger_settlement` | Keyword Trap / Synonym | Chunk 13 (p. 5) | #7 | #2 | **+5** | No &rarr; **Yes** |
